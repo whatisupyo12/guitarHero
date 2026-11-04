@@ -19,7 +19,7 @@ public class GuitarHero {
         	strings[i] = string;
         }
 
-        final double TEXT_POS_X = .2;
+        final double TEXT_POS_X = .5;
         final double TEXT_POS_Y = .5;
         
         StdDraw.text(TEXT_POS_X, TEXT_POS_Y, "Use your keyboard the pluck the guitar strings, and play notes!");
