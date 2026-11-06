@@ -15,30 +15,10 @@ public class KeyboardHero {
         
         int position = 0;
         
-        String song = "nn//SS/ ..,,mmn //..,,m //..,,m nn//SS/ ..,,mmn";
+        String song = "nn/// ..,,mmn //..,,m //..,,m nn/// ..,,mmn";
         
         while(position < song.length())
         {
-        	if(song.charAt(position) == ' ')
-        	{
-        		StdDraw.show(1000);
-        		position++;
-        	}
-        	else
-        	{
-        		if(song.charAt(position) != 'S')
-        		{
-        			StdDraw.clear();
-        			StdDraw.text(0.5, 0.5, song.substring(position, position+1));
-        			StdDraw.show(1000);
-        		}
-        		else
-        		{
-        			StdDraw.clear();
-        			StdDraw.text(0.5, 0.5, "Space");
-        			StdDraw.show(1000);
-        		}
-        		
                 if (StdDraw.hasNextKeyTyped()) {
                     // the user types this character
                     char key = StdDraw.nextKeyTyped();
@@ -56,7 +36,7 @@ public class KeyboardHero {
                     }
                 }
                 
-                if(position == song.length()-1)
+                if(position == song.length())
                 {
                 	lastKey(strings);
                 	System.out.println("lkaj");
@@ -79,7 +59,6 @@ public class KeyboardHero {
                 {
                 	strings[i].tic();
                 }
-        	}
         }
 	}
 	
