@@ -8,7 +8,7 @@ public class GuitarHero {
 
     public static void main(String[] args) {
     	
-    	String keyboard = "q2we4r5ty7u8i9op-[=zxcdcfvgbnjmk,.;/' ";
+    	String keyboard = "q2we4r5ty7u8i9op-[=zxdcfvgbnjmk,.;/' ";
         // Create two guitar strings, for concert A and C
         
         GuitarString[] strings = new GuitarString[keyboard.length()];
